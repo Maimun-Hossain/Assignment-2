@@ -247,13 +247,13 @@ nav{
     font-weight: 600;
 }
 #Host-Section{
-
+    padding-bottom: 120px;
 }
 .host-content{
     width: 75%;
     margin: 40px auto 0px auto;
     padding: 40px;
-    border-radius: 25px;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     background-color: #230E3D;
@@ -274,4 +274,28 @@ nav{
 }
 footer{
     background-image: url('./assets/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 35px 0px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+.ft-logo{
+    width: 360px;
+    height: 50px;
 }
