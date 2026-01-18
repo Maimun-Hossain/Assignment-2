@@ -158,7 +158,45 @@ nav{
     font-weight: 400;
 }
 #Why-Choose-Section{
+    background-color: #230E3D;
+    padding: 120px 0px 120px 0px;
+}
+.why-title{
+    margin-bottom: 40px;
+}
+.Why-Choose-container{
+    width: 85%;
+    margin: 0px auto;
+}
+.box{
+    padding: 40px;
+    border-radius: 40px;
+    background-color: #35116566;
+}
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.exclusive{
+    grid-area: exclusive;
+}
+.rich{
+    grid-area: rich;
+}
 
+.why-boxs{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+      "audio mobile mobile"
+      "audio global global"
+      "exclusive exclusive rich"
+    ;
 }
 #Featured-Episodes-Section{
 
