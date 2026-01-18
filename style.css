@@ -251,9 +251,27 @@ nav{
 }
 .host-content{
     width: 75%;
-    margin: 0px auto;
-    padding: 120px 0px 120px 0px;
+    margin: 40px auto 0px auto;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #230E3D;
+    gap: 24px;
+}
+.social-icons{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+.ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
 }
 footer{
-
+    background-image: url('./assets/footer-bg.png');
 }
