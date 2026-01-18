@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A0B2E;
+}
+
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared Styles */
+.btn{
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-style: se;
+}
+
+/* Main Styles */
+nav{
+
+}
+#Banner-Section{
+
+}
+#About-Section{
+
+}
+#Why-Choose-Section{
+
+}
+#Featured-Episodes-Section{
+
+}
+#Host-Section{
+
+}
+footer{
+
+}
