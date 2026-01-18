@@ -34,7 +34,17 @@
     font-size: 48px;
     text-align: center;
 }
-
+.sm-title{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 16px 0px 16px 0px;
+}
+.sm-txt{
+    color: rgba(255, 255, 255, 0.533);
+    font-size: 16px;
+    font-weight: 400;
+}
 /* Main Styles */
 nav{
 
@@ -46,7 +56,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 75%;
     margin: 0px auto;
 }
 .nav-bar ul{
@@ -116,7 +126,7 @@ nav{
     padding: 50px 0px 120px 0px;
 }
 .about-container{
-    width: 85%;
+    width: 75%;
     margin: 0px auto;
 }
 .about-text{
@@ -165,7 +175,7 @@ nav{
     margin-bottom: 40px;
 }
 .Why-Choose-container{
-    width: 85%;
+    width: 75%;
     margin: 0px auto;
 }
 .box{
@@ -175,6 +185,9 @@ nav{
 }
 .audio{
     grid-area: audio;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .mobile{
     grid-area: mobile;
@@ -201,8 +214,45 @@ nav{
 #Featured-Episodes-Section{
 
 }
+.Featured-container{
+    width: 75%;
+    margin: 0px auto;
+    padding: 120px 0px 120px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card{
+    background-color: #35116566;
+    border-radius: 25px;
+    width: 380px;
+}
+.card iframe{
+    border-radius: 25px 25px 0px 0px;
+
+}
+.card-contents{
+    padding: 24px;
+}
+.time{
+    display: flex;
+    gap: 6px;
+    margin-top: 14px;
+}
+.time h4{
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+}
 #Host-Section{
 
+}
+.host-content{
+    width: 75%;
+    margin: 0px auto;
+    padding: 120px 0px 120px 0px;
 }
 footer{
 
