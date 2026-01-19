@@ -315,6 +315,7 @@ footer{
 .ft-logo{
     width: 360px;
     height: 50px;
+    margin: 0px auto;
 }
 
 
@@ -428,6 +429,41 @@ footer{
     .ft-logo{
         width: 219px;
         height: 32px;
-        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:577px) {
+    .about-parts{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .nav-contents ul{
+        display: none;
+    }
+    .nav-contents button{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .host-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons{
+        justify-content: center;
+    }
+        .why-boxs{
+        grid-template-areas: 
+          "audio mobile"
+          "audio mobile"
+          "global exclusive"
+          "global exclusive"
+          "rich rich"
+        ;
     }
 }
