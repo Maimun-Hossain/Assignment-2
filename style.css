@@ -42,7 +42,7 @@
 }
 .sm-txt{
     color: rgba(255, 255, 255, 0.533);
-    font-size: 16px;
+    font-size: 0.95rem;
     font-weight: 400;
 }
 /* Main Styles */
@@ -415,20 +415,25 @@ footer{
     }
 
     footer{
-        height: 248px;
+        height: 230px;
+        /* min-height: auto; */
+        padding: 40px 0px;
     }
     .brands{
         flex-wrap: wrap;
-        gap: 16px;
-        width: 70%;
-        margin: 24px auto;
+        gap: 20px;
+        width: 54%;
+        margin: 20px auto;
     }
     .footer-container{
         width: 90%;
     }
     .ft-logo{
-        width: 219px;
-        height: 32px;
+        width: 180px;
+        height: 26px;
+    }
+    .brand h4{
+        font-size: 0.95rem;
     }
 }
 
