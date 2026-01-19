@@ -78,9 +78,11 @@ nav{
     background-image: url('./assets/hero-bg.png');
     /* background-size: cover; */
     background-position: center;
+    
     height: 550px;
     padding: 101px 0px;
     /* margin-top: 20px; */
+    width: 100%;
 }
 .bg-circle{
     position: relative;
@@ -218,7 +220,8 @@ nav{
 
 .why-boxs{
     display: grid;
-    gap: 30px;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
       "audio mobile mobile"
       "audio global global"
@@ -329,6 +332,7 @@ footer{
         gap: 40px;
     }
     .why-boxs{
+        grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
           "audio audio"
           "mobile mobile"
@@ -357,6 +361,11 @@ footer{
     /*  */
     .bg-banner{
         padding: 40px 0px 0px 0px;
+        /* background-size: cover; */
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: auto;
     }
     .bg-circle{
         width: 50%;
@@ -463,6 +472,7 @@ footer{
         justify-content: center;
     }
         .why-boxs{
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
           "audio mobile"
           "audio mobile"
