@@ -323,7 +323,7 @@ footer{
     display: none;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     .about-parts{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
@@ -421,8 +421,8 @@ footer{
     }
     .brands{
         flex-wrap: wrap;
-        gap: 20px;
-        width: 54%;
+        gap: 25px;
+        width: 69%;
         margin: 20px auto;
     }
     .footer-container{
