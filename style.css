@@ -19,10 +19,11 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    /* background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1))); */
 }
 .btn:hover{
-    background-color: blanchedalmond;
+    color: black;
+    box-shadow: 0px 4px 16px rgb(255, 166, 24);
 }
 
 .bg{
@@ -31,7 +32,7 @@
 .title{
     color: white;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.7rem;
     text-align: center;
 }
 .sm-title{
@@ -119,7 +120,7 @@ nav{
     color: white;
 }
 .banner-content h1{
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 800;
     margin: 40px 0px 8px 0px;
 }
@@ -137,6 +138,11 @@ nav{
     cursor: pointer;
     background-color: transparent;
     border: 1px solid #00FF88;
+}
+.btn-2:hover{
+    color: rgb(255, 166, 24);
+    box-shadow: 0px 4px 16px rgb(255, 166, 24);
+    border: 1px solid rgb(255, 166, 24);
 }
 #About-Section{
     padding: 50px 0px 120px 0px;
@@ -182,6 +188,7 @@ nav{
     margin-top: 16px;
     font-size: 0.9rem;
     font-weight: 400;
+    text-transform: uppercase;
 }
 #Why-Choose-Section{
     background-color: #230E3D;
@@ -269,6 +276,7 @@ nav{
 #Host-Section{
     padding-bottom: 120px;
 }
+
 .host-content{
     width: 75%;
     margin: 40px auto 0px auto;
@@ -291,6 +299,11 @@ nav{
     padding: 10px;
     border: 1px solid #533C72;
     border-radius: 50%;
+    box-shadow: none;
+}
+.ring-img{
+    width: 20px;
+    height: 20px;
 }
 footer{
     background-image: url('./assets/footer-bg.png');
@@ -360,11 +373,12 @@ footer{
 
     /*  */
     .bg-banner{
-        padding: 40px 0px 0px 0px;
+        background-image: url('./assets/Image.png');
+        padding: 40px 0px;
         /* background-size: cover; */
         width: 100%;
         background-position: center;
-        background-size: cover;
+        /* background-size: cover; */
         height: auto;
     }
     .bg-circle{
@@ -444,6 +458,23 @@ footer{
     .brand h4{
         font-size: 0.95rem;
     }
+    .banner-content h1{
+    font-size: 3rem;
+    margin: 24px 0px 8px 0px;
+    }
+    .title{
+    font-size: 2rem;
+    }
+    footer{
+    background-image: url('./assets/Images.png');
+    background-size: cover;
+    /* background-position: center; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 }
 
 @media screen and (max-width:992px) and (min-width:577px) {
@@ -480,5 +511,14 @@ footer{
           "global exclusive"
           "rich rich"
         ;
+    }
+    .about-container{
+        width: 90%;
+    }
+    .about-text{
+        max-width: 100%;
+    }
+    .about-text-2{
+        max-width: 100%;
     }
 }
